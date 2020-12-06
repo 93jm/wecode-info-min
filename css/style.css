@@ -1,0 +1,17 @@
+/* 기본 세팅 */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import "reset.css";
+@import "screen-size.css";
+
+@import "screen/header-nav.css";
+@import "screen/main-introduce.css";
+@import "screen/main-dream&hobby.css";
+@import "screen/main-language.css";
+@import "screen/main-contact.css";
+
+
+
+body{
+    /* 길이 테스트 */
+    /* height: 10000vh; */
+}
