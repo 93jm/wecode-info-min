@@ -1,0 +1,54 @@
+.container_main-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background_1-color);
+}
+
+.main-contact{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.main-contact li{
+    margin: 13px 0px 13px 0px;
+}
+
+.main-contact span{
+    margin-bottom: 30px;
+}
+
+.main-contact a{
+    text-decoration: none;
+}
+
+/* 아이콘 크기 조절 및 색상 부여 */
+
+.main-contact i{
+    font-size: 70px;
+}
+
+.fa-instagram{
+    color: #BD3175;
+}
+
+.fa-github{
+    color: #24292e;
+}
+
+.fa-vimeo-square{
+    color: #20c997;
+}
+
+.fa-google{
+    color: #ea4335;
+}
+
+.fa-comment{
+    color: #fae100;
+}

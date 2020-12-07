@@ -5,3 +5,11 @@
 	font-size: 100%;
 	font-family: 'JetBrains Mono', monospace;
 }
+
+:root {
+	--background_1-color: #f0f4f5;
+	--background_2-color: rgb(209, 209, 209);
+	--header-color: tomato;
+	--nav-color: powderblue;
+	
+}

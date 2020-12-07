@@ -1,4 +1,4 @@
-#screen-size{
+/* #screen-size{
     position: absolute;
     width: 100%;   
     height: 100%;
@@ -16,4 +16,8 @@
     #screen-size{
         display: none;
     }
-}
+} */
+/* 
+@media screen and (min-width: 600px){
+    
+} */

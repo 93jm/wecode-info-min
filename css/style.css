@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 @import "reset.css";
 @import "screen-size.css";
+@import "header-nav.css";
 
-@import "screen/header-nav.css";
+
+/* screen */
 @import "screen/main-introduce.css";
 @import "screen/main-dream&hobby.css";
 @import "screen/main-language.css";

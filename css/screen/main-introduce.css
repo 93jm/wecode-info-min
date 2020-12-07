@@ -5,7 +5,7 @@
 }
 
 .main-introduce-1{
-    background-color: rgb(209, 209, 209);
+    background-color: var(--background_2-color);
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 }
 
 .main-introduce-2{
-    background-color: white;
+    background-color: var(--background_1-color);
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .main-introduce-3{
-    background-color: rgb(209, 209, 209);
+    background-color: var(--background_2-color);
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 .main-introduce-4{
-    background-color: white;
+    background-color: var(--background_1-color);
     height: 300px;
     display: flex;
     flex-direction: column;
