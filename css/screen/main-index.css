@@ -100,11 +100,12 @@
 }
 
 .main-index a {
-  animation: splash 1s infinite;
+  will-change: transform;
+  animation: splash 3s infinite;
 }
 
 @keyframes splash {
-  0% {
+  /* 0% {
     opacity: 1;
     color: white;
   }
@@ -121,6 +122,26 @@
   }
   100% {
     opacity: 1;
+    color: black;
+  } */
+  0% {
+    opacity: 0;
+    color: black;
+  }
+  25% {
+    opacity: 1;
+    color: black;
+  }
+  50% {
+    opacity: 0;
+    color: white;
+  }
+  75% {
+    opacity: 1;
+    color: white;
+  }
+  100% {
+    opacity: 0;
     color: black;
   }
 }
