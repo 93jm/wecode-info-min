@@ -45,6 +45,7 @@
   margin: 9px;
   padding: 5px 20px;
   border-radius: 30px;
+  cursor: pointer;
 }
 .container_nav input:hover {
   background-color: gray;

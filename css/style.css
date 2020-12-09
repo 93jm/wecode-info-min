@@ -8,6 +8,7 @@
 @import "screen/main-dream&hobby.css";
 @import "screen/main-language.css";
 @import "screen/main-contact.css";
+@import "screen/main-index.css";
 
 body {
   /* 길이 테스트 */

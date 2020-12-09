@@ -1,0 +1,128 @@
+.container_main-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: tomato;
+}
+
+.main-index {
+  position: relative;
+  border: 5px dashed white;
+  border-radius: 10%;
+  width: 500px;
+  height: 300px;
+  font-size: 30px;
+}
+.main-index span {
+  position: absolute;
+}
+.main-index span:nth-child(1) {
+  background: tomato;
+  top: -40px;
+  right: 60px;
+  padding: 0px 20px;
+  color: black;
+  font-size: 30px;
+}
+.main-index span:nth-child(2) {
+  top: 60px;
+  left: 90px;
+}
+.main-index span:nth-child(3) {
+  top: 40px;
+  right: 40px;
+}
+.main-index span:nth-child(4) {
+  top: 110px;
+  right: 120px;
+}
+.main-index span:nth-child(5) {
+  top: 130px;
+  left: 110px;
+}
+.main-index span:nth-child(6) {
+  bottom: 60px;
+  left: 60px;
+}
+.main-index span:nth-child(7) {
+  bottom: 50px;
+  right: 80px;
+}
+
+.main-index span:nth-child(8) {
+  background: tomato;
+  padding: 0px 20px;
+  bottom: -35px;
+  left: 70px;
+}
+
+/* 위코드 */
+.main-index :nth-child(9) {
+  background-color: tomato;
+  padding: 10px;
+  top: -40px;
+  left: -40px;
+  /* top: -40px;
+  left: -50px; */
+  font-size: 40px;
+  z-index: 2;
+  text-decoration: none;
+}
+.main-index span:nth-child(10) {
+  background-color: tomato;
+  padding: 14px;
+  top: -40px;
+  left: -35px;
+  font-size: 40px;
+  z-index: 1;
+}
+/* 아랫 막대기 */
+.main-index span:nth-child(11) {
+  bottom: -40px;
+  left: 61px;
+  color: white;
+}
+.main-index span:nth-child(12) {
+  bottom: -40px;
+  left: 210px;
+  color: white;
+}
+/* 윗 막대기 */
+.main-index span:nth-child(13) {
+  top: -40px;
+  right: 180px;
+  color: white;
+}
+.main-index span:nth-child(14) {
+  top: -40px;
+  right: 50px;
+  color: white;
+}
+
+.main-index a {
+  animation: splash 1s infinite;
+}
+
+@keyframes splash {
+  0% {
+    opacity: 1;
+    color: white;
+  }
+  25% {
+    opacity: 0.5;
+    color: white;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.5;
+    color: black;
+  }
+  100% {
+    opacity: 1;
+    color: black;
+  }
+}
