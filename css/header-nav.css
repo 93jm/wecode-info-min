@@ -79,6 +79,8 @@
 /* 반응형 화면 */
 
 @media screen and (max-width: 550px) {
+  /* header 배열변경 */
+
   .container_header {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +108,16 @@
   }
   .a_sub {
     display: flex;
+  }
+  /* nav 배열 변경 */
+  .container_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_nav input {
+    width: 100%;
+    flex-grow: 1;
   }
 }
 
