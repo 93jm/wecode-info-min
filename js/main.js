@@ -1,5 +1,5 @@
 //시간 난이도 조절을 위해 기본값 설정
-const GAME_TIME = 9;
+const GAME_TIME = 5;
 
 let score = 0;
 let time = GAME_TIME;
