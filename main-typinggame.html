@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>이쟁민의 개발모험</title>
 </head>
 
@@ -35,20 +36,34 @@
 </header>
 <nav class="container_nav">
     <a href="main-introduce.html"><input type="button" value="Introduce"></a>
-    <a href="main-dream&hobby.html"><input type="button" value="Test" style="background-color: gray;"></a>
+    <a href="main-typinggame.html"><input type="button" value="Typing Game" style="background-color: gray;"></a>
     <a href="main-language.html"><input type="button" value="Test"></a>
     <a href="main-contact.html"><input type="button" value="Contact"></a>
 </nav>
-    <main>
-        <p>특정 기능1</p>
+    <main class="container_main-typinggame">
+        <div class="typing_header">
+            <h1>Show me your Eng Typing Skills</h1>
+        </div>
+        <div class="word-display">
+            Hello
+        </div>
+        <div class="word-input-box">
+            <input type="text" class="word-input"/>
+        </div>
+        <div class="game-info">
+            <div>
+                남은시간 : <span class="time">0</span>초
+            </div>
+            <div>
+                획득점수 : <span class="score">0</span>점
+            </div>
+        </div>
+        <button class="word-button word-loading" onclick="run()">게임을 불러오는 중. . .</button>
     </main>
     <footer>
 
     </footer>
-    <!-- <div id="screen-size">
-        <span>Please check it on the wide screen.</span>
-    </div> -->
-
+    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/2743848796.js" crossorigin="anonymous"></script>
 </body>
 

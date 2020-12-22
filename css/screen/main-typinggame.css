@@ -1,0 +1,69 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container_main-typinggame {
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background_1-color);
+}
+
+.typing_header {
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.word-display {
+  margin-top: 3rem;
+  font-size: 90px;
+  color: var(--background_1-color);
+  background-color: var(--background_2-color);
+}
+
+.word-input-box {
+  margin-top: 2rem;
+}
+
+.word-input {
+  padding: 0.5rem;
+  width: 300px;
+}
+
+.game-info {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.time,
+.score {
+  font-size: 30px;
+}
+
+.word-button {
+  width: 200px;
+  height: 35px;
+  color: #ffffff;
+  background-color: var(--nav-color);
+  border: none;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.word-loading {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
